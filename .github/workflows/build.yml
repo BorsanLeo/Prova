@@ -19,6 +19,8 @@ jobs:
       run: mvn -B package --file roman-number/pom.xml
     - name: Test with JaCoCo
       run: mvn test jacoco:report --file roman-number/pom.xml
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@v2.3.6
     - name: Report to Coveralls
       env:
         COVERALLS_REPO_TOKEN: ${{secrets.COVERALLS_REPO_TOKEN}}
