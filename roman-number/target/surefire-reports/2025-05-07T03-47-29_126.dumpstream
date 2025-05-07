@@ -1,4 +1,4 @@
-# Created at 2025-05-07T03:43:36.603
+# Created at 2025-05-07T03:47:30.113
 Boot Manifest-JAR contains absolute paths in classpath 'D:\ProvaRoma\Prova2\roman-number\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
